@@ -1,0 +1,27 @@
+{
+  "name": "record",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "location": {
+      "type": "string"
+    },
+    "price": {
+      "type": "number"
+    },
+    "details": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
